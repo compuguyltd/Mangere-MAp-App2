@@ -1,0 +1,464 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>List App</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+    <meta name="viewport"
+          conent="width=device-width, initial-scale=1, maximum-scale=1" />
+<style>
+    img.fullscreen {
+        max-height: 100%;
+        max-width: 100%;
+    }
+    </style>    
+    
+    </head>    
+    <body>
+        <div data-role="page" id="home">
+    <header data-role="header">
+        <h1>Papatoetoe Congregation Territory Maps</h1>
+        </header>
+        <article data-role="content">
+            <div data-role="collapsible" data-collapsed="true">
+             <h1>MAPS 1-11</h1>
+            <ul data-role="listview" data-filter="true">
+                
+                   
+                    
+                <li><a href="#map1">
+                    <h1>MAP 1 - Hillside Rd Nth</h1>
+                    <img src="images/map1-hillside-rd-nth.jpg"><p>Do Not Call - Camp Rd No30</p></a></li>
+                <li><a href="#map2">
+                    <h1>MAP 2 - Luke Street</h1>
+                    <img src="images/Map2_luke_st.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map3">
+                    <h1>MAP 3 - Huia Rd </h1>
+                    <img src="images/map3-huia-rd.jpg"><p>Call On All </p></a></li>
+                <li><a href="#map4">
+                    <h1>MAP 4 - Avenue Rd</h1>
+                    <img src="images/map4-avenue-rd.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map5">
+                    <h1>MAP 5 - Fairburn Rd </h1>
+                    <img src="images/map5-fairburn-rd.jpg"><p></p></a></li>
+                <li><a href="#map6">
+                    <h1>MAP 6 - Nixon Ave</h1>
+                    <img src="images/map6-nixon-ave.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map7">
+                    <h1>MAP 7 - Wymondley Rd</h1>
+                    <img src="images/map7-wymondley-rd.jpg"><p>Call On All </p></a></li>
+                <li><a href="#map8">
+                    <h1>MAP 8 - Walmesley Rd </h1>
+                    <img src="images/map8-walmsley-rd.jpg">
+                    <p>Call On All</p></a></li>
+                 <li><a href="#map9">
+                    <h1>MAP 9 Otahuhu Collage</h1>
+                    <img src="images/map9-otahuhu-collage.jpg"><p>Do Not Call - Camp Rd No30</p></a></li>
+                <li><a href="#map10">
+                    <h1>MAP 10 - Ferndown Ave</h1>
+                    <img src="images/map10-ferndown-ave.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map11">
+                    <h1>MAP 11 - Grange Rd </h1>
+                    <img src="images/map11-grange-rd.jpg"><p>Call On All </p></a></li>
+                
+            </ul>
+            </div>
+        
+            
+            
+            <div data-role="collapsible" data-theme="b" data-collapsed="true">
+             <h1>MAPS 12-22</h1>
+            <ul data-role="listview" data-filter="true">
+            <li><a href="#map12">
+                    <h1>MAP 12 - Motatau Rd</h1>
+                    <img src="images/map12-motatau.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map13">
+                    <h1>MAP 13 - Vine St </h1>
+                    <img src="images/map13-vine-st.jpg"><p></p></a></li>
+                <li><a href="#map14">
+                    <h1>MAP 14 - Favona Rd</h1>
+                    <img src="images/map14-favona-rd.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map15">
+                    <h1>MAP 15 - Gadsby Rd</h1>
+                    <img src="images/map15-gadsby-rd.jpg"><p>Call On All </p></a></li>
+                <li><a href="#map16">
+                    <h1>MAP 16 - McKinstry Ave</h1>
+                    <img src="images/map16-mckinstry-ave.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map17">
+                    <h1>MAP 17 - Yates Rd</h1>
+                    <img src="images/map17-yates-rd.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map18">
+                    <h1>MAP 18 - Ashley Ave</h1>
+                    <img src="images/map18-ashley-ave.jpg"><p></p></a></li>
+                <li><a href="#map19">
+                    <h1>MAP 19 - Mahunga Dr</h1>
+                    <img src="images/map19-mahunga-dr.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map20">
+                    <h1>MAP 20 - Omana Rd</h1>
+                    <img src="images/map20-omana-rd.jpg"><p>Call On All </p></a></li>
+                <li><a href="#map21">
+                    <h1>MAP 21 - Swaffield Rd</h1>
+                    <img src="images/map21-swaffield-rd.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map22">
+                    <h1>MAP 22 - Shirley Rd</h1>
+                    <img src="images/map22-shirley-rd.jpg">
+                    <p>Call On All</p></a></li>
+            </ul>
+            </div>
+            
+            <div data-role="collapsible" data-collapsed="true">
+             <h1>MAPS 23-34</h1>
+            <ul data-role="listview" data-filter="true">
+                <li><a href="#map23">
+                    <h1>MAP 23 - Kolmar Rd</h1>
+                    <img src="images/map23-kolmar-rd.jpg"><p></p></a></li>
+                <li><a href="#map24">
+                    <h1>MAP 24 - Rosella Rd</h1>
+                    <img src="images/map24-rosella-rd.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map25">
+                    <h1>MAP 25 - Hain Rd</h1>
+                    <img src="images/map25-hain-ave.jpg"><p>Call On All </p></a></li>
+                <li><a href="#map26">
+                    <h1>MAP 26 - Station Rd </h1>
+                    <img src="images/map26-station-rd.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map27">
+                    <h1>MAP 27 - Alabaster Dr</h1>
+                    <img src="images/map27-alabaster-dr.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map28">
+                    <h1>MAP 28 - Landon Ave </h1>
+                    <img src="images/map28-landon-ave.jpg"><p></p></a></li>
+                <li><a href="#map29">
+                    <h1>MAP 29 - Hokianga St</h1>
+                    <img src="images/map29-hokianga-st.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map30">
+                    <h1>MAP 30 - Henwood Rd</h1>
+                    <img src="images/map30-henwood-rd.jpg"><p>Call On All </p></a></li>
+                <li><a href="#map31">
+                    <h1>MAP 31 - Hillcrest Rd </h1>
+                    <img src="images/map31-hillcrest-rd.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map32">
+                    <h1>MAP 32 - Hillside Rd Sth </h1>
+                    <img src="images/map32-hillside-rd-sth.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map33">
+                    <h1>MAP 33 - Lenore Rd </h1>
+                    <img src="images/map33-lenore-rd.jpg">
+                    <p>Call On All</p></a></li>
+                <li><a href="#map34">
+                    <h1>MAP 34 - Garus Ave </h1>
+                    <img src="images/map34-garus-ave.jpg">
+                    <p>Call On All</p></a></li>
+            </ul>
+            </div>
+        </article>
+            <div data-role="page" id="p&h">
+        <footer data-role="footer" data-position="fixed" color="red">
+            <nav data-role="navbar">
+                <ul>
+                    <li><a href="index.html" data-icon="home">Home</a></li>
+                    <li><a href="#MAP OF ALL" data-icon="grid">Maps</a></li>
+                    <li><a href="http://www.compuguy.co.nz" data-icon="info">App Maker<img src=""></a></li>
+                    
+                </ul>
+            </nav>
+        </footer>
+            </div><!--... page..-->
+        
+         <div data-role="page" id="MAP OF ALL">
+    <header data-role="header">
+        <h1>MAP OF ALL</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/mapA4_line_2014.JPG" class="fullscreen" />
+       </div><!-- page -->
+        
+        <div data-role="page" id="map1">
+    <header data-role="header">
+        <h1>MAP 1 - HILLSIDE ROAD NTH</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map1-hillside-rd-nth.jpg" class="fullscreen" />
+       </div><!-- page -->
+        
+        <div data-role="page" id="map2">
+    <header data-role="header">
+        <h1>MAP 2 - LUKE ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/Map2_luke_st.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map3">
+    <header data-role="header">
+        <h1>MAP 3 - HUIA ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map3-huia-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map4">
+    <header data-role="header">
+        <h1>MAP 4 - AVENUE ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map4-avenue-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map5">
+    <header data-role="header">
+        <h1>MAP 5 - FAIRBURN ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map5-fairburn-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map6">
+    <header data-role="header">
+        <h1>MAP 6 - NIXON AVENUE</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map6-nixon-ave.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map7">
+    <header data-role="header">
+        <h1>MAP 7 - WYMONDLEY ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map7-wymondley-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map8">
+    <header data-role="header">
+        <h1>MAP 8 - WALMSLEY ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map8-walmsley-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+            
+        <div data-role="page" id="map9">
+    <header data-role="header">
+        <h1>MAP 9 - OTAHUHU COLLAGE</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map9-otahuhu-collage.jpg" class="fullscreen" />
+       </div><!-- page -->
+        
+        <div data-role="page" id="map10">
+    <header data-role="header">
+        <h1>MAP 10 - FERNDOWN AVENUE</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map10-ferndown-ave.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map11">
+    <header data-role="header">
+        <h1>MAP 11 - GRANGE ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map11-grange-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map12">
+    <header data-role="header">
+        <h1>MAP 12 - MOTATAU ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map12-motatau.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map13">
+    <header data-role="header">
+        <h1>MAP 13 - VINE STREET</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map13-vine-st.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map14">
+    <header data-role="header">
+        <h1>MAP 14 - FAVONA ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map14-favona-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map15">
+    <header data-role="header">
+        <h1>MAP 15 - GADSBY ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map15-gadsby-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map16">
+    <header data-role="header">
+        <h1>MAP 16 - MCKINSTRY AVENUE</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map16-mckinstry-ave.jpg" class="fullscreen" />
+            </div><!--... page..-->
+            
+        <div data-role="page" id="map17">
+    <header data-role="header">
+        <h1>MAP 17 - YATES ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map17-yates-rd.jpg" class="fullscreen" />
+       </div><!-- page -->
+        
+        <div data-role="page" id="map18">
+    <header data-role="header">
+        <h1>MAP 18 - ASHLEY AVENUE</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map18-ashley-ave.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map19">
+    <header data-role="header">
+        <h1>MAP 19 - MAHUNGA DRIVE</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map19-mahunga-dr.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map20">
+    <header data-role="header">
+        <h1>MAP 20 - OMANA ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map20-omana-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map21">
+    <header data-role="header">
+        <h1>MAP 21 - SWAFFIELD ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map21-swaffield-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map22">
+    <header data-role="header">
+        <h1>MAP 22 - SHIRLEY ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map22-shirley-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map23">
+    <header data-role="header">
+        <h1>MAP 23 - KOLMAR ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map23-kolmar-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map24">
+    <header data-role="header">
+        <h1>MAP 24 - ROSELLA ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map24-rosella-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+            
+        <div data-role="page" id="map25">
+    <header data-role="header">
+        <h1>MAP 25 - HAIN AVENUE</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map25-hain-ave.jpg" class="fullscreen" />
+       </div><!-- page -->
+        
+        <div data-role="page" id="map26">
+    <header data-role="header">
+        <h1>MAP 26 - STATION ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map26-station-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map27">
+    <header data-role="header">
+        <h1>MAP 27 - ALABASTER DRIVE</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map27-alabaster-dr.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map28">
+    <header data-role="header">
+        <h1>MAP 28 - LANDON AVENUE</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map28-landon-ave.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map29">
+    <header data-role="header">
+        <h1>MAP 29 - HOKIANGA STREET</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map29-hokianga-st.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map30">
+    <header data-role="header">
+        <h1>MAP 30 - HENWOOD ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map30-henwood-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map31">
+    <header data-role="header">
+        <h1>MAP 31 - HILLCREST ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map31-hillcrest-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        
+        <div data-role="page" id="map32">
+    <header data-role="header">
+        <h1>MAP 32 - HILLSIDE ROAD STH</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map32-hillside-rd-sth.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        <div data-role="page" id="map33">
+    <header data-role="header">
+        <h1>MAP 33 - LENORE ROAD</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map33-lenore-rd.jpg" class="fullscreen" />
+            </div><!--... page..-->
+        <div data-role="page" id="map34">
+    <header data-role="header">
+        <h1>MAP 34 - GARUS AVENUE</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+        </header>
+        <img src="images/map34-garus-ave.jpg" class="fullscreen" />
+            </div><!--... page..-->
+    </body>
+    
+    
+</html>
